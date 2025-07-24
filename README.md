@@ -2,7 +2,7 @@
 
 Uma ferramenta simples desenvolvida em Python com interface gráfica (Tkinter) para escanear IPs ativos em uma rede local e permitir o desligamento ou reinicialização remota de máquinas via IP.
 
-![Screenshot da interface](./screenshot.png)
+![Screenshot da interface](./tela.png)
 
 ---
 
@@ -35,37 +35,30 @@ Uma ferramenta simples desenvolvida em Python com interface gráfica (Tkinter) p
 git clone https://github.com/seuusuario/regiscan.git
 cd regiscan
 python main.py
+```
+### 🧪 Exemplo de uso
 
-🧪 Exemplo de uso
-Informe o IP inicial e final da varredura.
-Exemplo: 192.168.1.1 até 192.168.1.254
+-Informe o IP inicial e final da varredura.
+-Exemplo: 192.168.1.1 até 192.168.1.254
 
-Clique em Escanear.
+-Clique em Escanear.
 
-Os dispositivos encontrados serão listados na área de texto.
+-Os dispositivos encontrados serão listados na área de texto.
 
-Para desligar ou reiniciar uma máquina:
+-Para desligar ou reiniciar uma máquina:
 
-Digite o IP no campo "IP para desligar"
+-Digite o IP no campo "IP para desligar"
 
-Clique em "Desligar Máquina" ou "Reiniciar Máquina"
+-Clique em "Desligar Máquina" ou "Reiniciar Máquina"
 
-⚠️ Observações
-É necessário que o compartilhamento administrativo remoto esteja habilitado nas máquinas de destino.
+### ⚠️ Obsevações
 
-Para desligar/reiniciar remotamente, o script usa shutdown -s e shutdown -r via os.system.
+-É necessário que o compartilhamento administrativo remoto esteja habilitado nas máquinas de destino.
+-Para desligar/reiniciar remotamente, o script usa shutdown -s e shutdown -r via os.system.
 
-🛠️ Tecnologias
-Python
+### 📜 Licença 
 
-Tkinter
-
-Subprocess
-
-Threading
-
-📜 Licença
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
-👨‍💻 Autor
-Feito por: Reginaldo Queiroz Oliveira Júnior.
+### 👨‍💻 Autor
+Feito por Reginaldo Queiroz Oliveira Júnior 
