@@ -34,7 +34,7 @@ Uma ferramenta simples desenvolvida em Python com interface gráfica (Tkinter) p
 ```bash
 git clone https://github.com/seuusuario/regiscan.git
 cd regiscan
-python main.py
+python Mapear_rede.py
 ```
 ### 🧪 Exemplo de uso
 
