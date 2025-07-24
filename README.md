@@ -32,7 +32,7 @@ Uma ferramenta simples desenvolvida em Python com interface gráfica (Tkinter) p
 ### Instalação
 
 ```bash
-git clone https://github.com/seuusuario/regiscan.git
+git clone https://github.com/rqjunior/regiscan.git
 cd regiscan
 python Mapear_rede.py
 ```
